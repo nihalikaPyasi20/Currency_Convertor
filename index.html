@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link for free fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <div class="container">
+    <h2>Currency Convertor</h2>
+    <form>
+        <div class="amount">
+            <p><b>Enter Amount</b></p>
+            <input value="100" type="text">
+            <br>
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <p><i><b>From</b></i> </p>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/US/flat/64.png">"
+                    <select name="from">
+                    </select>
+                </div>
+            </div>
+            <!-- exchange icon-->
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p> <i><b>To</b></i></p>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/IN/flat/64.png">"
+                    <select name="to">
+                    </select>
+            </div>
+        </div>
+        </div>
+        <div class="msg"> 1UDS = 95.97</div>
+        <br>
+        <button>Get Exchange Rate</button>
+    </form>
+  </div>
+  
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
